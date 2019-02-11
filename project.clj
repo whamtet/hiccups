@@ -1,4 +1,4 @@
-(defproject hiccups "0.4.0-SNAPSHOT"
+(defproject org.clojars.whamtet/hiccups "0.4.1"
   :description "A ClojureScript port of Hiccup - a fast library for rendering HTML in ClojureScript"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License - v 1.0"
@@ -14,13 +14,13 @@
 
   ;; The libs which the project depends on.
   ;; Here we use the latest stable clj and cljs releases
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/clojurescript "0.0-2069"]]
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/clojurescript "1.10.516"]]
 
   ;; The plugins which the project depends on. Here we're using the
   ;; experimental 1.0.0-alpha2 release. Change it to the official
   ;; 1.0.0 as soon as it will be available
-  :plugins [[lein-cljsbuild "1.0.0"]]
+  :plugins [[lein-cljsbuild "1.1.7"]]
 
   ;; Hooks the cljsbuild subtasks to the lein tasks: lein clean, lein
   ;; compile, lein test and lein jar
